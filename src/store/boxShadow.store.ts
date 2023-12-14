@@ -26,12 +26,12 @@ export const useBoxShadow = create<StoreState>(set => ({
     },
   ],
   create: () => {
-    set(state => ({ ...state, boxShadows: createLayer(state.boxShadows) }));
+    set(state => ({ boxShadows: createLayer(state.boxShadows) }));
   },
   update: (boxShadow: BoxShadow) => {
-    set(state => ({ ...state, boxShadows: updateLayer(state.boxShadows, boxShadow) }));
+    set(state => ({ boxShadows: updateLayer(state.boxShadows, boxShadow) }));
   },
   deleteShadow: (id: string) => {
-    set(state => ({ ...state, boxShadows: deleteLayer(state.boxShadows, id) }));
+    set(state => ({ boxShadows: deleteLayer(state.boxShadows, id) }));
   },
 }));

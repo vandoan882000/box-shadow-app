@@ -15,6 +15,6 @@ export const useBox = create<BoxStoreState>(set => ({
     radius: 10,
   },
   update: (box: Box) => {
-    set(state => ({ ...state, box }));
+    set(state => ({ box: { ...state.box, ...box } }));
   },
 }));

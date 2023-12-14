@@ -1,11 +1,11 @@
-import { Content } from 'libs/components/Content/Content';
-import { SideBar } from 'libs/components/SideBar/SideBar';
-import { SideBarRight } from 'libs/components/SideBarRight/SideBarRight';
+import { Content } from 'containers/Content/Content';
+import { SideBarLeft } from 'containers/SideBar/SideBarLeft';
+import { SideBarRight } from 'containers/SideBarRight/SideBarRight';
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <SideBarLeft />
       <Content />
       <SideBarRight />
     </div>

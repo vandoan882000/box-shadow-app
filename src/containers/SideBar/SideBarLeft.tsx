@@ -1,9 +1,9 @@
 import { Button, Divider } from '@mui/material';
 import { useBoxShadow } from 'store/boxShadow.store';
 
-import { BoxShadowItem } from '../BoxShadowItem/BoxShadowItem';
+import { BoxShadowItem } from '../../libs/components/BoxShadowItem/BoxShadowItem';
 
-export const SideBar = () => {
+export const SideBarLeft = () => {
   const { boxShadows, create } = useBoxShadow();
   return (
     <div className="w-25% h-100% shadow-1 border-r-1 border-r-gray3">
