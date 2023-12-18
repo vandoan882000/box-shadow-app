@@ -5,6 +5,11 @@ import ColorPicker from 'material-ui-color-picker';
 import { FC, useState } from 'react';
 import { useBoxShadow } from 'store/boxShadow.store';
 
+import { Blur } from './Blur';
+import { Horizontal } from './Horizontal';
+import { Spread } from './Spread';
+import { Vertical } from './Vertical';
+
 export interface BoxShadowItemProp {
   id: string;
   name: string;
@@ -16,7 +21,12 @@ export interface BoxShadowItemProp {
   inset: boolean;
 }
 
-export const BoxShadowItem: FC<BoxShadowItemProp> = ({ id, name, horizontal, vertical, blur, spread, color, inset }) => {
+export const BoxShadowItem: FC<BoxShadowItemProp> & {
+  Horizontal: typeof Horizontal;
+  Vertical: typeof Vertical;
+  Blur: typeof Blur;
+  Spread: typeof Spread;
+} = ({ id, name, horizontal, vertical, blur, spread, color, inset }) => {
   const { update, deleteShadow } = useBoxShadow();
   const [currentHorizontal, setHorizontal] = useState<number>(horizontal);
   const [currentVertical, setVertical] = useState<number>(vertical);
@@ -109,3 +119,8 @@ export const BoxShadowItem: FC<BoxShadowItemProp> = ({ id, name, horizontal, ver
     </Accordion>
   );
 };
+
+BoxShadowItem.Horizontal = Horizontal;
+BoxShadowItem.Vertical = Vertical;
+BoxShadowItem.Blur = Blur;
+BoxShadowItem.Spread = Spread;

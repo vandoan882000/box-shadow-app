@@ -1,117 +1,151 @@
 <mxfile host="65bd71144e">
     <diagram id="XrQQjqhUU5B19RqnYjpP" name="Page-1">
-        <mxGraphModel dx="1477" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1034" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="37" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="250" width="680" height="1530" as="geometry"/>
+                <mxCell id="37" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="380" width="680" height="1030" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=-0.017;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="3">
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=-0.017;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="2" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="60" y="680" as="sourcePoint"/>
+                        <mxPoint x="197.96000000000004" y="679.26" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="5">
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="60" y="680" as="sourcePoint"/>
+                        <mxPoint x="200" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="6">
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="60" y="680" as="sourcePoint"/>
+                        <mxPoint x="200" y="1090" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="7">
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="60" y="680" as="sourcePoint"/>
+                        <mxPoint x="200" y="1230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="60" y="680" as="sourcePoint"/>
+                        <mxPoint x="200" y="1580" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="650" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Thêm layer box shadow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="390" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="8">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="9">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="10">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="11">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="12">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="13">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="Chỉnh layer box&lt;br&gt;&amp;nbsp;shadow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="660" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="Xóa layer box&lt;br&gt;&amp;nbsp;shadow" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="1060" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="14">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="15">
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="340" y="1230" as="targetPoint"/>
+                        <mxPoint x="310" y="680" as="sourcePoint"/>
+                        <mxPoint x="440" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="16">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="630" as="sourcePoint"/>
+                        <mxPoint x="440" y="580" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="17">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="630" as="sourcePoint"/>
+                        <mxPoint x="440" y="680" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="Chỉnh box properties" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="1200" width="120" height="60" as="geometry"/>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="680" as="sourcePoint"/>
+                        <mxPoint x="440" y="770" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Copy code" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="1550" width="120" height="60" as="geometry"/>
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="630" as="sourcePoint"/>
+                        <mxPoint x="440" y="870" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="Chỉnh khoảng cách shadow theo chiều ngang" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="510" width="120" height="60" as="geometry"/>
+                <mxCell id="32" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;entryX=-0.005;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="680" as="sourcePoint"/>
+                        <mxPoint x="440" y="960" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="Chỉnh khoảng cách shadow theo chiều dọc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="610" width="120" height="60" as="geometry"/>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="42" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="1230" as="sourcePoint"/>
+                        <mxPoint x="440" y="1190" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="Chỉnh độ mờ shadow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="710" width="120" height="60" as="geometry"/>
+                <mxCell id="34" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="42" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="1280" as="targetPoint"/>
+                        <mxPoint x="320" y="1230" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="Chỉnh độ phân tán" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="800" width="120" height="60" as="geometry"/>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="1110" as="sourcePoint"/>
+                        <mxPoint x="440" y="1380" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="12" value="Chỉnh màu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="900" width="120" height="60" as="geometry"/>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="1110" as="sourcePoint"/>
+                        <mxPoint x="440" y="1480" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="Shadow bên trong thành phần" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="990" width="120" height="60" as="geometry"/>
+                <mxCell id="38" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Box Shadow App&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="390" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Chỉnh chiều rộng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1160" width="120" height="60" as="geometry"/>
+                <mxCell id="39" value="Thêm layer box shadow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="520" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="chỉnh chiều cao" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1260" width="120" height="60" as="geometry"/>
+                <mxCell id="40" value="Chỉnh layer box&lt;br&gt;&amp;nbsp;shadow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="640" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Chỉnh bo góc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1350" width="120" height="60" as="geometry"/>
+                <mxCell id="41" value="Xóa layer box&lt;br&gt;&amp;nbsp;shadow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="770" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Chỉnh màu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="1450" width="120" height="60" as="geometry"/>
+                <mxCell id="42" value="Chỉnh box properties" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1070" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Box Shadow App&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="260" width="150" height="30" as="geometry"/>
+                <mxCell id="43" value="Copy code" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="930" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Chỉnh khoảng cách shadow theo chiều ngang" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="440" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Chỉnh khoảng cách shadow theo chiều dọc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="540" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Chỉnh độ mờ shadow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="640" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Chỉnh độ phân tán" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="730" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Chỉnh màu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="830" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Shadow bên trong thành phần" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="930" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Chỉnh chiều rộng" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="1030" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="chỉnh chiều cao" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="1130" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Chỉnh bo góc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="1220" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Chỉnh màu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="1310" width="130" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
